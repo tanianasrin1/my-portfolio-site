@@ -5,10 +5,11 @@ import Banner from '../Banner/Banner';
 import Education from '../Education/Education';
 import Pricing from '../Pricing/Pricing';
 import Service from '../Service/Service';
+import './Home.css'
 
 const Home = () => {
     return (
-        <div>
+        <div className='bgColor'>
             <Banner></Banner>
             <About></About>
             <Service></Service>

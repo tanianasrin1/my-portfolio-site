@@ -6,8 +6,8 @@ import { Button } from 'react-bootstrap';
 
 const Banner = () => {
     return (
-        <div className='bgColor'>
-           <div className='d-flex container '>
+        <div>
+           <div className='d-flex container justify-content-between'>
               <div className='p-5'>
                  <h1 className='text-white'>I'm Web Developer</h1>
                  <h4 className='text-white pb-3'>Tania Nasrin</h4>
