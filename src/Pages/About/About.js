@@ -1,11 +1,13 @@
 import React from 'react';
 import img from '../../images/p_n.jpg'
 import {ProgressBar  } from 'react-bootstrap';
+import './About.css'
 
 const About = () => {
     return (
-        <div className='container'>
-            <h1 className='text-white text-center mt-5 mb-4'>About Me</h1>
+        <div className='edu-bg'>
+          <div className='container p-4'>
+          <h1 className='text-white text-center mt-5 mb-4'>About Me</h1>
             <div className='d-flex'>
                 <div>
                     <img height={400}  src={img} alt="" />
@@ -33,6 +35,7 @@ const About = () => {
                    <p className='text-white'>NODEJS</p>
                    <ProgressBar variant="danger" now={60} />
                 </div>
+          </div>
 
                
         </div>
