@@ -23,7 +23,7 @@ const About = () => {
                 
             </div>
 
-            <div className='mt-4'>
+                <div className='mt-4'>
                    <p className='text-white'>HTML</p>
                    <ProgressBar variant="success" now={90} />
                    <p className='text-white'>CSS</p>
@@ -33,6 +33,8 @@ const About = () => {
                    <p className='text-white'>NODEJS</p>
                    <ProgressBar variant="danger" now={60} />
                 </div>
+
+               
         </div>
     );
 };

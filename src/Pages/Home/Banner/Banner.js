@@ -11,6 +11,7 @@ const Banner = () => {
               <div className='p-5'>
                  <h1 className='text-white'>I'm Web Developer</h1>
                  <h4 className='text-white pb-3'>Tania Nasrin</h4>
+                 <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, illo</p>
                  <Button variant="outline-info">My Resume</Button>
               </div>
               <div>
